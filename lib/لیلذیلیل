@@ -1,0 +1,17 @@
+hello this is my application
+its a daily habit tracker and goal tracker for 2 monthes for my girlfriend
+i'm setting some goals for her for each day like routines and exersises and courses , ....
+i trust her so i'm just placing some check boxes for her and if she ticked them, i will give her a voice or a video message to get her to new goal and if she checkes all of the gouls, i will give her the day's gift ok?
+it can be the picture of a letter or a video or something like this
+ok now you know the goal
+the design and ui and ux is perfect i dont want you to touch anything from this part
+As you can see, the main part of the story is the logic and data management discussion. This is the part I want to leave to you.
+Let me tell you, everything is going to be local in this application, and nothing is going to come through the API.
+So now, for further clarity, I need to explain to you in detail each task and how it works.
+When the user enters the application, as you can see, they are faced with 60 days, each of which has a series of tasks and subtasks.
+The user can click on each day and see the tasks for that day, and if they complete a task, they can check it off. Once all tasks for a day are completed, the user receives a reward, which could be a letter, a video message, or something else. The application will also provide motivational messages to encourage the user to keep going. The data for the tasks, rewards, and motivational messages will be stored locally on the device.
+One thing to consider when discussing tasks is their anti-cheat system. As you can see, there is an argument defined in TaskItem just to handle this.
+The way it works is that when the user starts a task, the start time of that task is saved and when the user wants to check the end of that task, the gap between the current time and the saved time is checked and compared with the time set for the task. If it is greater, it is OK and the task is finished. If not, a warning is displayed.
+And about the start of these 60 days, I must say that it should not be related to the time of installation of the application or calendar.
+Whenever the user completes the task from the first day, it starts and progresses.
+Note that the progress of the days should always be saved and there should be no duplication.
